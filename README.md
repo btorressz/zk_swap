@@ -74,3 +74,31 @@ This project explores **ZK-SNARKs, commit-reveal schemes, MEV protection, and st
 - They can **stake tokens privately**, ensuring **no exposure of positions**.
 
 ---
+
+
+## 🔍 Example Use Cases
+
+| **Use Case** | **Benefit** |
+|-------------|------------|
+| **High-Frequency Trading (HFT)** | Execute trades with **zero MEV risk** and **full anonymity**. |
+| **Institutional Traders** | **Private liquidity pools** prevent **order tracking** and **strategy leaks**. |
+| **Whale Protection** | **Large traders** can hide **order sizes** and **prevent market manipulation**. |
+| **DeFi Privacy Tools** | Developers can use this **framework for privacy-focused DeFi protocols**. |
+
+---
+
+## 🚀 Future Enhancements
+
+### 🔹 **Cross-Chain ZK-Swap Functionality**
+- Enable **privacy swaps across multiple blockchains**.
+- Use **zk-SNARK relayers** for **seamless trading between Solana and Ethereum**.
+
+### 🔹 **Advanced Reputation-Based Trading**
+- Implement **machine learning models** to detect **Sybil behavior**.
+- Reward **ethical trading** with **exclusive liquidity incentives**.
+
+### 🔹 **ZK-Rollups for Scalability**
+- **Batch swaps** into **ZK-Rollups** for **faster and cheaper transactions**.
+- Reduce **gas fees** and **execution costs**.
+
+---
