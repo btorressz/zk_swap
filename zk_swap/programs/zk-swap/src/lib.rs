@@ -4,8 +4,8 @@ use flate2::write::GzEncoder;
 use flate2::Compression;
 use std::io::Write;
 
-// Use a valid base58 string as a dummy program ID.
-// Replace with your actual program ID in production.
+// 
+// Program ID from Solana Playground + devnet
 declare_id!("4HWVZsf5mfgh5QKPF8PXUt9hkBmCZox2ocGrTA5iNW48");
 
 #[program]
