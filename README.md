@@ -8,6 +8,7 @@
 
 This project explores **ZK-SNARKs, commit-reveal schemes, MEV protection, and stealth trading** techniques to create a **confidential and secure decentralized trading system**.
 
+
 ---
 
 
@@ -32,5 +33,27 @@ This project explores **ZK-SNARKs, commit-reveal schemes, MEV protection, and st
 - **Batch ZK Proof Verification:** Groups multiple swaps into a single proof.
 - **State Compression:** Reduces **on-chain storage costs** for proofs.
 - **Recursive Proof Aggregation:** Aggregates multiple swaps into **one verification step**.
+
+---
+
+## 🔄 How It Works
+
+| **Step**  | **Description** |
+|-----------|----------------|
+| 1️⃣ **Commit** | A trader submits a commitment hash representing their swap details. |
+| 2️⃣ **Reveal** | The trader submits a **ZK-proof** and **encrypted swap data** to validate the trade. |
+| 3️⃣ **Verification** | The program checks the **ZK-SNARK proof** and executes the swap. |
+| 4️⃣ **Execution** | The trade is executed **without revealing the original order details**. |
+
+---
+
+## 🔐 Security Features
+
+| **Feature** | **Description** |
+|------------|----------------|
+| **Anti-Sybil Resistance** | Traders must **stake $ZKSWAP tokens** to execute private swaps. |
+| **ZK-Proof Verification** | Transactions are validated with **ZK-SNARKs** instead of plaintext verification. |
+| **Stealth Addresses** | Uses **ECDH (Elliptic Curve Diffie-Hellman)** to generate **temporary trade addresses**. |
+| **Time-Lock Protection** | **Randomized delays** obfuscate trade execution timing to **prevent MEV**. |
 
 ---
