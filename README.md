@@ -102,3 +102,16 @@ This project explores **ZK-SNARKs, commit-reveal schemes, MEV protection, and st
 - Reduce **gas fees** and **execution costs**.
 
 ---
+
+## Conclusion
+ - ZK-Swap AMM ($ZKSWAP) project is a practice-based learning initiative aimed at improving Zero-Knowledge cryptography skills on Solana. It provides a foundation for private trading, MEV protection, and confidential DeFi applications.
+
+- If you're interested in privacy-first decentralized trading, ZK-SNARK proofs, or Solana-based AMMs, this project serves as a solid starting point for future innovations! 🚀
+
+  ---
+
+
+## 🧾📜 LICENSE : THIS PROJECT IS UNDER THE MIT LICENSE 
+
+  ---
+
