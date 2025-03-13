@@ -57,3 +57,20 @@ This project explores **ZK-SNARKs, commit-reveal schemes, MEV protection, and st
 | **Time-Lock Protection** | **Randomized delays** obfuscate trade execution timing to **prevent MEV**. |
 
 ---
+
+
+## ⚡ Privacy & Trading Enhancements
+
+### 1️⃣ **Staking System for Trading Priority**
+- Traders with **higher stakes** get **execution priority** over others.
+- Ensures that **long-term liquidity providers** are **rewarded**.
+
+### 2️⃣ **On-Chain Reputation System**
+- **Good trading behavior** is rewarded with a **higher reputation score**.
+- Traders with **higher reputations** get **lower fees** and **execution priority**.
+
+### 3️⃣ **Zero-Knowledge Market-Making**
+- **Liquidity providers** earn **rewards in $ZKSWAP tokens**.
+- They can **stake tokens privately**, ensuring **no exposure of positions**.
+
+---
